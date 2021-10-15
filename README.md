@@ -20,3 +20,24 @@ Note: In the Amazon_Reviews_ETL.ipynb file, sensitive data (i.e., password and c
 
 Amazon Vine service provides manufacturers with reviews from customers for their products and asks manufacturers to pay a fee to Amazon.
 Using the [Musical_Instruments](https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Musical_Instruments_v1_00.tsv.gz) dataset, we want to conclude that whether there is a bias toward reviews that were received from Vine program. In doing so, the percentage of 5-star reviews between paid (Vine) reviews and unpaid (non-Vine) reviews are compared.<br>
+
+## Results
+### Vine (paid) Reviews
+- The total number of paid Vine reviews is 60.<br>
+- Among all the total number of Vine reviews, 34 of them are 5-star reviews.<br>
+- 56.66% of all Vine reviews are 5-stars.<br>
+
+<p img align="center" width="100%">
+<img width="651" alt="Screen Shot 2021-10-15 at 11 32 04 AM" src="https://user-images.githubusercontent.com/85843401/137513865-d4a10179-d306-47fc-9664-275e8ade3835.png">
+<figcaption>Table 1: Data related to Vine reviews.</figcaption></figure/> 
+<p align="center">
+
+### Non-Vine (unpaid) Reviews
+- The total number of unpaid reviews is 14477.<br>
+- Among all the total number of unpaid reviews, 8212 of them are 5-star reviews.<br>
+- 56.72% of all non-Vine reviews are 5-stars.<br>
+
+<p img align="center" width="100%">
+<img width="654" alt="Screen Shot 2021-10-15 at 11 32 51 AM" src="https://user-images.githubusercontent.com/85843401/137513958-d8150f4e-e062-49f4-a926-84e1859878e3.png">
+<figcaption>Table 2: Data related to non-Vine reviews.</figcaption></figure/> 
+<p align="center">
