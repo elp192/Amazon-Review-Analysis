@@ -41,3 +41,7 @@ Using the [Musical_Instruments](https://s3.amazonaws.com/amazon-reviews-pds/tsv/
 <img width="654" alt="Screen Shot 2021-10-15 at 11 32 51 AM" src="https://user-images.githubusercontent.com/85843401/137513958-d8150f4e-e062-49f4-a926-84e1859878e3.png">
 <figcaption>Table 2: Data related to non-Vine reviews.</figcaption></figure/> 
 <p align="center">
+   
+## Summary
+From our results, we can conclude that the percentage of 5-star from Vine reviews and non-Vine reviews are 56.66% and 56.72%, respectively. So, it seems that there is not any positive bias towards the reviews received for the Vine program.<br>
+For further analysis, it is worth comparing 1-2 star reviews to analyze whether there is any bias towards reviews received for the Vine program or not. Also, in our analysis, it should be taken into account that the number of total Vine reviews is significantly less than those in non-Vine reviews. So, the sample size for our group (Vine and non-Vine reviews) is not similar. Increasing the sample size of the Vine reviews in the dataset can help us better analyze the problem.
